@@ -1,0 +1,15 @@
+meta:
+  url: https://github.com/karszawa/grad-thesis
+  name: Development and Verification of Food Management System for Athletes
+  author: Hiroaki KARASAWA
+  thumbnail:
+  description: Awesome Study of Food Logging
+  sns:
+    - twitter
+slide:
+  sidebar: true
+  theme: nebula
+  targetBlank: true
+extends:
+  js:
+  css: style.css

@@ -1,0 +1,151 @@
+:root {
+  --color-gray: #b7b8b7;
+  --color-yellow: #f5da55;
+  --color-blue: #4688d3;
+  --color-orange: #f08d5a;
+  --color-magenta: #7d5265;
+}
+
+.bespoke-backdrop {
+  background: var(--color-gray);
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  text-transform: none;
+}
+
+h2 {
+  color: var(--color-yellow);
+  letter-spacing: 0em;
+  margin-bottom: 24px;
+  text-transform: none;
+}
+
+strong {
+  color: var(--color-yellow);
+  font-weight: bold;
+}
+
+table {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+thead tr {
+  border-bottom: 1px solid;
+}
+
+th,
+td {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.table-title {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+img {
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgba(100, 100, 100, 0.2);
+}
+
+img.raw {
+  border-radius: 0;
+}
+
+figure {
+  height: 60%;
+}
+
+figure img {
+  height: 100%;
+  width: auto;
+}
+
+figcaption {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+li:before {
+  margin-right: 16px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.left-box {
+  text-align: left;
+}
+
+/* slide specific styles below */
+
+.bespoke-backdrop.purpose {
+  background-color: var(--color-magenta);
+}
+
+.place {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: 0.8em;
+}
+
+.date {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 0.8em;
+}
+
+.dietitian-and-athlete-img-container {
+  max-height: 60%;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.dietitian-and-athlete-img-container img {
+  width: 40%;
+}
+
+.arrow-down {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.images {
+  display: flex;
+  margin-top: 24px;
+  height: 60%;
+}
+
+.images figure {
+  height: 100%;
+}
+
+.images img {
+  height: 80%;
+  width: auto;
+}
+
+.images figure:not(:last-child) {
+  margin-right: 24px;
+}
+
+.conclusion-item {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.bold {
+  font-weight: bold;
+}
