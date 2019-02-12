@@ -11,5 +11,5 @@ slide:
   theme: nebula
   targetBlank: true
 extends:
-  js:
+  js: script.js
   css: style.css

@@ -4,22 +4,22 @@
 - さらなるユーザー数の増加と栄養指導の自動化に向けたデータの集積を行う
 -->
 
+<!-- transition: flip -->
+
 # 結論
 
 ---
 
 ## 結論
 
-<div class="left-box">
-<p class="conclusion-item">
-**手法**: 食事画像の認識技術をアスリートと管理栄養士のための食事記録システムに活用
-</p>
-
-<p class="conclusion-item">
-**結果**: 管理栄養士から **「記録が楽になった」** とポジティブな意見を得られた
-</p>
-
-<p class="conclusion-item">
-**課題**: 今後は <span class="bold">「ユーザーの増加」</span> <span class="bold">「栄養指導の自動化に向けたデータ集積」</span> を行う
-</p>
-</div>
+<dl>
+  <dt><strong>手法</strong></dt>
+  <dd>食事画像の認識技術をアスリートの食事記録システムに活用</dd>
+  <dt><strong>結果</strong></dt>
+  <dd>管理栄養士<strong>「記録が楽になった」</strong></dd>
+  <dt><strong>課題</strong></dt>
+  <dd>
+    ・ユーザーの増加<br>
+    ・栄養指導の自動化に向けたデータ集積
+  </dd>
+</dl>
