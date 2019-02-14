@@ -5,28 +5,43 @@
 - インタビュー
 -->
 
-## アスリートの食事は「特殊」で「自己管理が難しい」
+## 概要
 
-<p class="table-title">
-一般人の1日のエネルギー必要量とアスリートの1日のエネルギー必要量
+FoodLog [1,2] は深層学習による食事画像認識技術を応用した食事記録サービス
+
+<strong class="abstract-theme">
+「FoodLogをアスリートの食生活の改善に使えないか?」
+</strong>
+
+<p class="note">
+  [1] S.Horiguchi, S.Amano, M.Ogawa, K.Aizawa, Personalized Classifier for Food Image Recognition, IEEE Trans. Multimedia Vol 20, No.10, pp.2836-2848, 2018. <br>
+  [2] foo.log 株式会社, https://foo-log.co.jp/business-foodlog.html, 2019.
 </p>
 
-|競技|必要エネルギー（男性）|必要エネルギー（女性）|
-|:--|--:|--:|
-|（18歳から29歳の平均）| 2650 kcal | 1950 kcal |
-| 陸上短距離 | 2600 - 3300 kcal | 2300 - 2800 kcal |
-| 水泳 | 3600 - 4600 kcal | 2400 - 3600 kcal |
-| 野球・ソフトボール | 3400 - 4600 kcal | 2200 - 3400 kcal |
-| ラグビー・アメフト | <strong>4000 - 5000 kcal</strong> | - |
+---
+
+# 背景
 
 ---
+
+## アスリートの食事は「特殊」で「自己管理が難しい」
+
+<figure class="p80 athlete-food">
+  <img src="../images/athlete-food.png">
+</figure>
+
+<p>
+  → 管理栄養士が**栄養指導**を行う
+</p>
+
+<!-- ---
 
 ## 「管理栄養士」がアスリートの食事指導を行う
 
 <section class="dietitian-and-athlete-img-container">
   <img src="../images/dietitian.png" />
   <img src="../images/athlete.png" />
-</section>
+</section> -->
 
 ---
 
@@ -39,17 +54,21 @@
 ## 食事記録の課題
 
 <p>
-アスリートの入力すべき情報が多い
+アスリートの<em>入力すべき情報が多い</em>
 </p>
 
-<i class="fas fa-angle-double-down arrow-down"></i>
-
 <p>
-アスリートが入力をしない、入力を誤る
+↓
 </p>
 
-<i class="fas fa-angle-double-down arrow-down"></i>
+<p>
+アスリートが<em>入力をしない、入力を誤る</em>
+</p>
 
 <p>
-管理栄養士が適切なアドバイスを生成できない
+↓
+</p>
+
+<p>
+管理栄養士が<strong>適切なアドバイスを生成できない</strong>
 </p>

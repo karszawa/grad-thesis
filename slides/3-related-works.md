@@ -37,7 +37,7 @@
 
 ## Atleta
 
-アスリートのコンディション管f理、食事管理、
+アスリートのコンディション管理、食事管理、
 <br>
 指導者・選手間のコミュニケーション管理ができる
 
@@ -56,6 +56,7 @@
   </figure>
 </section>
 
+<!--
 ---
 
 ## MyFitnessPal
@@ -77,7 +78,7 @@
     <img src="../images/myfitnesspal/3.png" class="raw border">
     <figcaption>(c) 運動の登録画面</figcaption>
   </figure>
-</section>
+</section> -->
 
 ---
 
@@ -89,7 +90,11 @@
 
 ---
 
-<figure class="big">
-  <img src="../images/attribute-map.png" class="raw">
-  <figcaption>種々のサービスの優劣(※ Freiの属性マップ)</figcaption>
-</figure>
+## 提案手法と既存手法の比較
+
+||<span class="table-header">入力の用意さ</span>|<span class="table-header">栄養評価の容易さ</span>|<span class="table-header">フィードバック</span>|<span class="table-header">コミュニケーション</span>|<span class="table-header">機能の豊富さ</span>|
+|:--|:--|:--|:--|:--|:--|
+|FoodLog|○|✕|✕|✕|○|
+|Atleta|✕|△|○|○|<span class="double-circle">◎</span>|
+|Slack/LINE|○|✕|○|<span class="double-circle">◎</span>|✕|
+|Ours|<span class="double-circle">◎</span>|○|○|△|✕|
