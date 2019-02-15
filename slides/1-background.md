@@ -20,6 +20,21 @@ FoodLog [1,2] は深層学習による食事画像認識技術を応用した食
 
 ---
 
+## 開発したアプリケーション
+
+<section class="horizontal-box">
+  <figure>
+    <video src="../images/create-record.mp4" autoPlay loop></video>
+    <figcaption>アスリートのアプリケーション (iOS & Android)</figcaption>
+  </figure>
+  <figure>
+    <video src="../images/dietitian.mp4" autoPlay loop></video>
+    <figcaption>管理栄養士のアプリケーション (Web)</figcaption>
+  </figure>
+</section>
+
+---
+
 # 背景
 
 ---

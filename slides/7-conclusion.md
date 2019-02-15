@@ -35,7 +35,7 @@
 
 ## 発表文献
 
-<dl>
+<dl class="p90">
   <dt>国内会議</dt>
   <dd>
     <ul class="bib">

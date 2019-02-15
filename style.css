@@ -343,3 +343,12 @@ em {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.bespoke-progress-bar {
+  background-color: var(--theme-accent);
+}
+
+.bespoke-backdrop,
+.bespoke-slide {
+  transition: none;
+}

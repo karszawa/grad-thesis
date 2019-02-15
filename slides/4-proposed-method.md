@@ -26,7 +26,7 @@
   <img src="../images/proposed-system.png">
 </figure>
 
-<!-- ---
+---
 
 ## 実際のシステム構成要素
 
@@ -40,7 +40,7 @@
 
 <figure>
   <img src="../images/system-architecture.png">
-</figure> -->
+</figure>
 
 ---
 
